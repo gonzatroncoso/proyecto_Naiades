@@ -1,0 +1,587 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width:320px){
+    /* HEADER */
+        header{
+            background-image: url(./assets/principal.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+        }
+        
+        .logo{
+            width: 110px;
+            margin-left: 1.4rem;
+            margin-top: 1.3rem;
+        }
+        .lunch{
+            color: white;
+            padding: 2px;
+            padding-left: 0.5rem;
+            background-color: #23135f;
+            max-width: 4rem;
+            font-size: 10px;
+        }
+    
+        h1{
+            color: white;
+            max-width: 250px;
+            word-spacing: 15px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        .contenedor-header{
+            margin-top:6rem;
+            margin-left: 2rem;
+        }
+    
+        /* SECTION FECHA */
+        .seccion-calendario{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .texto-calendario{
+            padding: 1.7rem;
+        }
+        span{
+            font-weight: bold;
+        }
+    
+        .fecha{
+            background-color: #f4f4f4;
+            padding: 2rem;
+        }
+
+        .img-calendario{
+            width: 80px;
+        }
+    
+        .parrafo-calendario{
+            margin-bottom: 1rem;
+            font-size: 9px; 
+        }
+    
+        .parrafo-fecha{
+            font-weight: bold;
+            font-size: 8px;
+            margin-top: 3px;
+        }
+        .center{
+            margin-left: 32px;
+            padding-bottom: 12px;
+        }
+    
+        button{
+            color: white;
+            background-color: #23135f;
+        }
+    
+        /* SECCION VIDEO */
+        .seccion-video{
+            background-image: url(./assets/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 180px;
+            display: flex;
+            align-items: center;
+        }
+    
+        .contenedor-video{
+            padding: 0.9rem;
+        }
+        .contenedor-texto-video{
+            color: white;
+            font-size: 9px;
+            padding: 0.7rem;
+        }
+    
+        .texto-video{
+            margin-bottom: 10px;
+        }
+       
+        .img-video{
+            width: 150px;
+            border: 4px solid white;
+            border-radius: 4px;
+        }
+        
+        aside{
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        /* SECCION FOOTER */
+        footer{
+            background-color: #7c55b5;
+            color: white;
+            font-size: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    
+        .contenedor-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .genetic{
+            display: flex;
+            justify-content: end;
+        }
+        .mail{
+            color: black;
+            margin-top: 5px;
+        }
+    
+        .img-footer{
+            width: 55px;
+            margin-left: 16px;
+        }
+    }
+
+/* ---------------------------------------------------------------------- */
+
+@media (min-width:425px){
+/* HEADER */
+    header{
+        background-image: url(./assets/principal.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+    }
+    
+    .logo{
+        width: 130px;
+        margin-left: 1.4rem;
+        margin-top: 1.3rem;
+    }
+    .lunch{
+        color: white;
+        padding: 2px;
+        padding-left: 0.5rem;
+        background-color: #23135f;
+        max-width: 4rem;
+        font-size: 12px;
+    }
+
+    h1{
+        color: white;
+        max-width: 275px;
+        word-spacing: 15px;
+        font-weight: 900;
+    }
+    .contenedor-header{
+        margin-top:6rem;
+        margin-left: 2rem;
+    }
+
+    /* SECTION FECHA */
+    .seccion-calendario{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .texto-calendario{
+        padding: 2rem;
+    }
+    span{
+        font-weight: bold;
+    }
+
+    .fecha{
+        background-color: #f4f4f4;
+        padding: 3rem;
+    }
+
+    .parrafo-calendario{
+        margin-bottom: 2rem;
+        font-size: 11px; 
+    }
+
+    .parrafo-fecha{
+        font-weight: bold;
+        font-size: 8px;
+    }
+    .center{
+        margin-left: 32px;
+        padding-bottom: 12px;
+    }
+
+    button{
+        color: white;
+        background-color: #23135f;
+    }
+
+    /* SECCION VIDEO */
+    .seccion-video{
+        background-image: url(./assets/fondo.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 180px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedor-video{
+        padding: 0.9rem;
+    }
+    .contenedor-texto-video{
+        color: white;
+        font-size: 12px;
+        padding: 0.7rem;
+    }
+
+    .texto-video{
+        margin-bottom: 10px;
+    }
+   
+    .img-video{
+        width: 200px;
+        border: 4px solid white;
+        border-radius: 4px;
+    }
+    
+    aside{
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* SECCION FOOTER */
+    footer{
+        background-color: #7c55b5;
+        color: white;
+        font-size: 11px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .contenedor-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .genetic{
+        display: flex;
+        justify-content: end;
+    }
+    .mail{
+        color: black;
+        margin-top: 5px;
+    }
+
+    .img-footer{
+        width: 70px;
+        margin-left: 16px;
+    }
+}
+
+/* ------------------------------------------------------------ */
+
+@media (min-width:768px){
+    /* HEADER */
+        header{
+            background-image: url(./assets/principal.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 340px;
+        }
+        
+        .logo{
+            width: 180px;
+            margin-left: 1.4rem;
+            margin-top: 1.3rem;
+        }
+        .lunch{
+            color: white;
+            padding: 2px;
+            padding-left: 1.3rem;
+            background-color: #23135f;
+            max-width: 6rem;
+            font-size: 15px;
+        }
+    
+        h1{
+            color: white;
+            max-width: 350px;
+            word-spacing: 15px;
+            font-weight: 900;
+        }
+        .contenedor-header{
+            margin-top:6rem;
+            margin-left: 2rem;
+        }
+    
+        /* SECTION FECHA */
+        .seccion-calendario{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        .texto-calendario{
+            padding: 3rem 3rem 1rem 3rem;
+        }
+        span{
+            font-weight: bold;
+        }
+    
+        .fecha{
+            background-color: #f4f4f4;
+            padding: 5rem 5rem 1rem 5rem;
+        }
+    
+        .parrafo-calendario{
+            margin-bottom: 4rem;
+            font-size: 14px; 
+        }
+        .img-calendario{
+            width: 110px;
+            margin-left: 2.6rem;
+        }
+        .img-calendario-fecha{
+            min-width: 200px;
+        }
+    
+        .parrafo-fecha{
+            font-weight: bold;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        .center{
+            margin-left: 86px;
+            padding-bottom: 12px;
+        }
+    
+        button{
+            color: white;
+            background-color: #23135f;
+            padding: 8px;
+        }
+    
+        /* SECCION VIDEO */
+        .seccion-video{
+            background-image: url(./assets/fondo.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 180px;
+            display: flex;
+            align-items: center;
+        }
+    
+        .contenedor-video{
+            padding: 0.9rem;
+            margin-left: 5rem;
+        }
+        .contenedor-texto-video{
+            color: white;
+            font-size: 15px;
+            padding: 0.7rem;
+            margin-right: 4rem;
+        }
+    
+        .texto-video{
+            margin-bottom: 10px;
+        }
+       
+        .img-video{
+            width: 200px;
+            border: 4px solid white;
+            border-radius: 4px;
+        }
+        
+        aside{
+            display: flex;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+        }
+    
+        /* SECCION FOOTER */
+        footer{
+            background-color: #7c55b5;
+            color: white;
+            font-size: 13px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    
+        .contenedor-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .genetic{
+            display: flex;
+            justify-content: end;
+        }
+        .mail{
+            color: black;
+            margin-top: 7px;
+        }
+    
+        .img-footer{
+            width: 80px;
+            margin-left: 16px;
+        }
+    }
+
+
+    @media (min-width:1024px){
+        /* HEADER */
+            header{
+                background-image: url(./assets/principal.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 440px;
+            }
+            
+            .logo{
+                width: 230px;
+                margin-left: 1.4rem;
+                margin-top: 1.3rem;
+            }
+            .lunch{
+                color: white;
+                padding: 4px;
+                padding-left: 2rem;
+                background-color: #23135f;
+                max-width: 8rem;
+                font-size: 17px;
+            }
+        
+            h1{
+                color: white;
+                max-width: 40rem;
+                word-spacing: 15px;
+                font-weight: 900;
+                font-size: 3.7rem;
+            }
+            .contenedor-header{
+                margin-top:6rem;
+                margin-left: 2rem;
+            }
+        
+            /* SECTION FECHA */
+            .seccion-calendario{
+                display: flex;
+                justify-content: space-around;
+            }
+        
+            .texto-calendario{
+                padding: 5rem 5rem 1rem 5rem;
+            }
+            span{
+                font-weight: bold;
+            }
+        
+            .fecha{
+                background-color: #f4f4f4;
+                padding: 5rem 10rem 1rem 10rem;
+            }
+        
+            .parrafo-calendario{
+                margin-bottom: 4rem;
+                font-size: 18px; 
+            }
+            .img-calendario{
+                width: 150px;
+                margin-left: 2.6rem;
+            }
+            .img-calendario-fecha{
+                min-width: 200px;
+            }
+        
+            .parrafo-fecha{
+                font-weight: bold;
+                font-size: 17px;
+                margin-left: 25px;
+            }
+            .center{
+                margin-left: 95px;
+                padding-bottom: 12px;
+            }
+        
+            button{
+                color: white;
+                background-color: #23135f;
+                padding: 10px;
+            }
+        
+            /* SECCION VIDEO */
+            .seccion-video{
+                background-image: url(./assets/fondo.jpg);
+                background-size: cover;
+                background-position: center;
+                height: 260px;
+                display: flex;
+                align-items: center;
+            }
+        
+            .contenedor-video{
+                padding: 0.9rem;
+                margin-left: 7rem;
+            }
+            .contenedor-texto-video{
+                color: white;
+                font-size: 18px;
+                padding: 0.7rem;
+                margin-right: 4rem;
+            }
+        
+            .texto-video{
+                margin-bottom: 10px;
+            }
+           
+            .img-video{
+                width: 280px;
+                border: 4px solid white;
+                border-radius: 4px;
+            }
+            
+            aside{
+                display: flex;
+                height: 90px;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.7rem;
+            }
+        
+            /* SECCION FOOTER */
+            footer{
+                background-color: #7c55b5;
+                color: white;
+                font-size: 16px;
+                padding-top: 28px;
+                padding-bottom: 28px;
+            }
+        
+            .contenedor-footer{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .genetic{
+                display: flex;
+                justify-content: end;
+                font-size: 16px;
+            }
+            .mail{
+                color: black;
+                margin-top: 13px;
+            }
+        
+            .img-footer{
+                width: 110px;
+                margin-left: 16px;
+            }
+        }
